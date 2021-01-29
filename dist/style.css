@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+div {
+  content-visibility: auto;
+}
+
+li,
+ul {
+  list-style: none;
+}
+
+button,
+input {
+  border: none;
+  outline: 0;
+  background-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+span {
+  display: inline-block;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("HelveticaNeue-Bold.eot");
+  src: url("HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"),url("HelveticaNeue-Bold.woff") format("woff"),url("HelveticaNeue-Bold.ttf") format("truetype"),url("HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+  font-style: normal;
+  font-weight: 700;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("HelveticaNeue-Medium.eot");
+  src: url("HelveticaNeue-Medium.eot?#iefix") format("embedded-opentype"),url("HelveticaNeue-Medium.woff") format("woff"),url("HelveticaNeue-Medium.ttf") format("truetype"),url("HelveticaNeue-Medium.svg#HelveticaNeue-Medium") format("svg");
+  font-style: normal;
+  font-weight: 500;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("HelveticaNeue-Regular.eot");
+  src: url("HelveticaNeue-Regular.eot?#iefix") format("embedded-opentype"),url("HelveticaNeue-Regular.woff") format("woff"),url("HelveticaNeue-Regular.ttf") format("truetype"),url("HelveticaNeue-Regular.svg#HelveticaNeue-Regular") format("svg");
+  font-style: normal;
+  font-weight: 400;
+  font-display: optional;
+}
+
+h1 {
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 84px;
+  line-height: 92.4px;
+  letter-spacing: -4px;
+}
+
+h2 {
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 70.4px;
+  letter-spacing: -4px;
+}
+
+h3 {
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 52px;
+  line-height: 57.2px;
+  letter-spacing: -4px;
+}
+
+h4 {
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 48.4px;
+  letter-spacing: -3px;
+}
+
+sub {
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -2px;
+}
+
+p.lg {
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 33.6px;
+  letter-spacing: 0;
+}
+
+p.md {
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 31.2px;
+  letter-spacing: -1px;
+}
+
+p.sm {
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 0;
+}
+
+p.cp {
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 23px;
+  line-height: 27.6px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.grid--full {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+.grid--container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1340px;
+  height: auto;
+}
+
+.button {
+  width: 252px;
+  height: 72px;
+  border-radius: 8px;
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -2px;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.button__warning {
+  background-color: #ff4242;
+}
+
+.button__default {
+  background-color: #0e6fff;
+}
+
+.button__small {
+  width: 138px;
+  height: 41px;
+  border: 2px solid #ff4242;
+  border-radius: 4px;
+  font-family: "Helvetica Neue",sans-serif;
+  font-size: 18px;
+  line-height: 21.6px;
+  letter-spacing: -.5px;
+  color: #0e6fff;
+}
