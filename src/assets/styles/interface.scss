@@ -1,9 +1,28 @@
-$light-blue: #0E6FFF;
-$muted-black: #23242A;
-$orange-yellow: #FFC928;
-$light-red: #FF4242;
-$light-grey: #B3ACA2;
-$white: #FFFFFF;
+@import "variables";
+
+.application {
+  width: 100%;
+  min-height: 100%;
+
+  .interface-content {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  .overlay-content {
+    position: fixed;
+
+    left: 0;
+    top: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    backdrop-filter: blur(2px);
+
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
 
 .grid {
   &--full {
@@ -62,5 +81,14 @@ $white: #FFFFFF;
     line-height: 21.6px;
     letter-spacing: -0.5px;
     color: #0E6FFF;
+
+    transition-property: background-color, color;
+    transition-duration: 180ms;
+    transition-timing-function: ease;
+
+    &:hover {
+      background-color: $light-red;
+      color: $white;
+    }
   }
 }

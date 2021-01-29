@@ -1,0 +1,69 @@
+@import "variables";
+
+.header {
+  position: relative;
+
+  padding-left: 40px;
+  padding-right: 40px;
+
+  width: 100%;
+  height: 116px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  .brand {
+    margin-right: auto;
+
+    width: 110px;
+    height: auto;
+
+    cursor: pointer;
+
+    &--image {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .navigation {
+    width: auto;
+    height: auto;
+
+    &--list {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      &-item {
+        margin-left: 48px;
+
+        a {
+          font-family: "Helvetica Neue", sans-serif;
+          font-weight: 700;
+          font-size: 21px;
+          line-height: 28px;
+          letter-spacing: -0.5px;
+          text-transform: capitalize;
+          color: $light-grey;
+
+          transition: color 180ms ease;
+
+          &:hover {
+            color: $muted-black;
+          }
+        }
+      }
+    }
+  }
+
+  &--absolute {
+    position: absolute;
+
+    left: 0;
+    top: 0;
+  }
+}
