@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
 
+  flex-shrink: 0;
+
   box-sizing: border-box;
 }
 
@@ -27,6 +29,10 @@ input, button {
 
 button {
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }
 
 span {
