@@ -1,0 +1,20 @@
+{
+  "name": "space-landing-page",
+  "version": "1.0.0",
+  "description": "\"# space-landing-page\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nika2212/space-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nika2212/space-landing-page/issues"
+  },
+  "homepage": "https://github.com/Nika2212/space-landing-page#readme"
+}
