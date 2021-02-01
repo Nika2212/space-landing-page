@@ -70,7 +70,7 @@ sub {
   letter-spacing: -2px;
 }
 
-p.lg {
+p.lg, label.lg, a.lg {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -79,7 +79,7 @@ p.lg {
   letter-spacing: -0px;
 }
 
-p.md {
+p.md, label.md, a.md {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -88,7 +88,7 @@ p.md {
   letter-spacing: -1px;
 }
 
-p.sm {
+p.sm, label.sm, a.sm {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 700;
   font-style: normal;

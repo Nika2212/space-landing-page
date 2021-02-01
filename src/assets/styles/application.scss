@@ -50,8 +50,6 @@
           text-transform: capitalize;
           color: $light-grey;
 
-          transition: color 180ms ease;
-
           &:hover {
             color: $muted-black;
           }
@@ -65,5 +63,116 @@
 
     left: 0;
     top: 0;
+  }
+}
+
+.footer {
+  position: relative;
+
+  width: 100%;
+  height: 502px;
+
+  background-color: $muted-black;
+
+  &--upper {
+    padding-top: 100px;
+
+    width: 100%;
+    height: calc(100% - 91px);
+
+    .grid--container {
+      height: 100%;
+    }
+
+    .website-description {
+      width: 50%;
+      height: 100%;
+
+      float: left;
+
+      a {
+        svg path {
+          fill: $white;
+          opacity: 0.5;
+        }
+      }
+
+      p {
+        margin-top: 40px;
+
+        color: rgba(255, 255, 255, 0.5);
+      }
+    }
+
+    .website-hotlinks {
+      width: 50%;
+      height: 100%;
+
+      float: right;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+
+      ul {
+        width: 33.33333%;
+        height: auto;
+
+        li {
+          width: 100%;
+          height: 33px;
+
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+
+          &:first-child {
+            margin-bottom: 50px;
+
+            label {
+              color: $white;
+              opacity: 0.5;
+            }
+          }
+
+          a {
+            color: $white;
+
+            &:hover {
+              color: $light-blue;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &--lower {
+    width: 100%;
+    height: 91px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+
+    .additional-info {
+      width: 100%;
+      height: 91px;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      label {
+        color: $white;
+
+        opacity: 0.5;
+      }
+
+      a {
+        color: $white;
+      }
+    }
   }
 }

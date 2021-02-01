@@ -111,6 +111,8 @@ sub {
   letter-spacing: -2px;
 }
 
+a.lg,
+label.lg,
 p.lg {
   font-family: "Helvetica Neue",sans-serif;
   font-weight: 400;
@@ -120,6 +122,8 @@ p.lg {
   letter-spacing: 0;
 }
 
+a.md,
+label.md,
 p.md {
   font-family: "Helvetica Neue",sans-serif;
   font-weight: 400;
@@ -129,6 +133,8 @@ p.md {
   letter-spacing: -1px;
 }
 
+a.sm,
+label.sm,
 p.sm {
   font-family: "Helvetica Neue",sans-serif;
   font-weight: 700;
@@ -277,7 +283,6 @@ p.cp {
   letter-spacing: -.5px;
   text-transform: capitalize;
   color: #b3aca2;
-  transition: color 180ms ease;
 }
 
 .header .navigation--list-item a:hover {
@@ -288,6 +293,104 @@ p.cp {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 502px;
+  background-color: #23242a;
+}
+
+.footer--upper {
+  padding-top: 100px;
+  width: 100%;
+  height: calc(100% - 91px);
+}
+
+.footer--upper .grid--container {
+  height: 100%;
+}
+
+.footer--upper .website-description {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.footer--upper .website-description a svg path {
+  fill: #fff;
+  opacity: .5;
+}
+
+.footer--upper .website-description p {
+  margin-top: 40px;
+  color: rgba(255,255,255,.5);
+}
+
+.footer--upper .website-hotlinks {
+  width: 50%;
+  height: 100%;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer--upper .website-hotlinks ul {
+  width: 33.33333%;
+  height: auto;
+}
+
+.footer--upper .website-hotlinks ul li {
+  width: 100%;
+  height: 33px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer--upper .website-hotlinks ul li:first-child {
+  margin-bottom: 50px;
+}
+
+.footer--upper .website-hotlinks ul li:first-child label {
+  color: #fff;
+  opacity: .5;
+}
+
+.footer--upper .website-hotlinks ul li a {
+  color: #fff;
+}
+
+.footer--upper .website-hotlinks ul li a:hover {
+  color: #0e6fff;
+}
+
+.footer--lower {
+  width: 100%;
+  height: 91px;
+  border-top: 1px solid rgba(255,255,255,.2);
+}
+
+.footer--lower .additional-info {
+  width: 100%;
+  height: 91px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer--lower .additional-info label {
+  color: #fff;
+  opacity: .5;
+}
+
+.footer--lower .additional-info a {
+  color: #fff;
 }
 
 .d-none {
