@@ -312,23 +312,23 @@ p.cp {
   height: 100%;
 }
 
-.footer--upper .website-description {
+.footer--upper .description {
   width: 50%;
   height: 100%;
   float: left;
 }
 
-.footer--upper .website-description a svg path {
+.footer--upper .description a svg path {
   fill: #fff;
   opacity: .5;
 }
 
-.footer--upper .website-description p {
+.footer--upper .description p {
   margin-top: 40px;
   color: rgba(255,255,255,.5);
 }
 
-.footer--upper .website-hotlinks {
+.footer--upper .hotlinks {
   width: 50%;
   height: 100%;
   float: right;
@@ -338,12 +338,12 @@ p.cp {
   align-items: flex-start;
 }
 
-.footer--upper .website-hotlinks ul {
+.footer--upper .hotlinks ul {
   width: 33.33333%;
   height: auto;
 }
 
-.footer--upper .website-hotlinks ul li {
+.footer--upper .hotlinks ul li {
   width: 100%;
   height: 33px;
   display: flex;
@@ -352,20 +352,20 @@ p.cp {
   align-items: center;
 }
 
-.footer--upper .website-hotlinks ul li:first-child {
-  margin-bottom: 50px;
+.footer--upper .hotlinks ul li:first-child {
+  margin-bottom: 35px;
 }
 
-.footer--upper .website-hotlinks ul li:first-child label {
+.footer--upper .hotlinks ul li:first-child label {
   color: #fff;
   opacity: .5;
 }
 
-.footer--upper .website-hotlinks ul li a {
+.footer--upper .hotlinks ul li a {
   color: #fff;
 }
 
-.footer--upper .website-hotlinks ul li a:hover {
+.footer--upper .hotlinks ul li a:hover {
   color: #0e6fff;
 }
 
