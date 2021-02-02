@@ -84,7 +84,7 @@
       height: 100%;
     }
 
-    .website-description {
+    .description {
       width: 50%;
       height: 100%;
 
@@ -104,7 +104,7 @@
       }
     }
 
-    .website-hotlinks {
+    .hotlinks {
       width: 50%;
       height: 100%;
 
@@ -129,7 +129,7 @@
           align-items: center;
 
           &:first-child {
-            margin-bottom: 50px;
+            margin-bottom: 38px;
 
             label {
               color: $white;
